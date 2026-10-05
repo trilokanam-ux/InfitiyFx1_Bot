@@ -55,7 +55,13 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "execution, competitive fees, and professional-grade tools come standard, so "
         "you're always ready to trade confidently."
     )
-    await update.message.reply_text(text=text, reply_markup=open_button())
+
+    with open("dangal365.jpeg", "rb") as img:
+        await update.message.reply_photo(
+            photo=img,
+            caption=text,
+            reply_markup=open_button(),
+        )
 
 
 # =========================

@@ -49,11 +49,11 @@ def support_button():
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = (
-        "🚀 Your Genuine Gateway to Smarter, More Confident Forex Trading\n\n"
-        "Major currencies, exotic pairs, and commodities all live under one convenient "
-        "roof, giving both new traders and seasoned veterans a solid launchpad. Fast "
-        "execution, competitive fees, and professional-grade tools come standard, so "
-        "you're always ready to trade confidently."
+       """🎁 ₹50,000 WELCOME BONUS
+📱 A chance to Win Samsung Z Fold 7
+Your next win could be waiting.
+Join Dangal365, explore your favourite games and play for your chance to win.
+👉 Register Now"""
     )
 
     with open("dangal365.jpeg", "rb") as img:
